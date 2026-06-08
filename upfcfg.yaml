@@ -28,8 +28,8 @@ gtpu:
 # List of Data Network Names (DNN) supported by this UPF.
 dnnList:
   - dnn: internet # Data Network Name
-    cidr: 10.20.56.0/16
-    natifname: wlo1 # Classless Inter-Domain Routing for assigned IPv4 pool of UE
+    cidr: 10.20.56.0/16 # Edit this accordingly
+    natifname: wlo1 # Classless Inter-Domain Routing for assigned IPv4 pool of UE # Edit this accordingly
 
 # Logging Configuration
 # Controls logging level and output for the UPF.
