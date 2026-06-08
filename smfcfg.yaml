@@ -72,7 +72,7 @@ configuration:
         interfaces: # Interface list for this UPF
           - interfaceType: N3 # the type of the interface (N3 or N9)
             endpoints: # the IP address of this N3/N9 interface on this UPF
-              - 10.20.56.26
+              - 10.20.56.26 # Edit this accordingly
             networkInstances: # Data Network Name (DNN)
               - internet
 
